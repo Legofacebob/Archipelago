@@ -1059,8 +1059,20 @@ class EldenRing(World):
         
         if self.options.enable_dlc: # MARK: DLC NPC
             
+            # MARK: Moore #Doesn't seem like any items are required
+
+            # MARK: Thioller #Doesn't seem like any items are required
+
+            # MARK: Hornesent
+
+            "GP/TPC: Furnace Visage x3 - give Hornsent scorpion stew"  # requires talking to Hornsent Grandam with Divine Beast Head equipped
+        
+            # MARK: Hornsent Grandam
+
+            "Storeroom Key" # for access to her
+
+            "guh" #yippie  
             
-            "guh"   
             
     def _add_remembrance_rules(self) -> None:
         """Adds rules for items obtainable for trading remembrances."""
